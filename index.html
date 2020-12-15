@@ -7,7 +7,7 @@
         <title>Tribute</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
      <header class="sticky">
@@ -29,7 +29,7 @@
                 <li><a href="#">Pictures</a></li>
             </ul>               
          </nav>
-         <a href="#" class="cta"><button>Contribute</button></a>
+         <a href="#" class="cta"><button >Contribute</button></a>
      </header>
      <section class="section-overview">
              <div class="name">
@@ -73,103 +73,8 @@
                         </tr>    
 
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>12</td>
-                            <td>23.34</td>
-                            <td>34.13</td>
-                            <td>45.12</td>
-                            <td>32.43</td>
-                            <td>678.90</td>
-                            <td>34.65</td>
-                            <td>356.67</td>
-                            <td>34.87</td>
-                            <td>45</td>
-                            <td>23</td>
-                            <td>12</td>
-                            <td>34</td>
-                            <td>67</td>
-                        </tr>
-                        <tr>
-                            <td>12</td>
-                            <td>23.34</td>
-                            <td>34.13</td>
-                            <td>45.12</td>
-                            <td>32.43</td>
-                            <td>678.90</td>
-                            <td>34.65</td>
-                            <td>356.67</td>
-                            <td>34.87</td>
-                            <td>45</td>
-                            <td>23</td>
-                            <td>12</td>
-                            <td>34</td>
-                            <td>67</td>
-                        </tr>
-                        <tr>
-                            <td>12</td>
-                            <td>23.34</td>
-                            <td>34.13</td>
-                            <td>45.12</td>
-                            <td>32.43</td>
-                            <td>678.90</td>
-                            <td>34.65</td>
-                            <td>356.67</td>
-                            <td>34.87</td>
-                            <td>45</td>
-                            <td>23</td>
-                            <td>12</td>
-                            <td>34</td>
-                            <td>67</td>
-                        </tr>
-                        <tr>
-                            <td>12</td>
-                            <td>23.34</td>
-                            <td>34.13</td>
-                            <td>45.12</td>
-                            <td>32.43</td>
-                            <td>678.90</td>
-                            <td>34.65</td>
-                            <td>356.67</td>
-                            <td>34.87</td>
-                            <td>45</td>
-                            <td>23</td>
-                            <td>12</td>
-                            <td>34</td>
-                            <td>67</td>
-                        </tr>
-                        <tr>
-                            <td>12</td>
-                            <td>23.34</td>
-                            <td>34.13</td>
-                            <td>45.12</td>
-                            <td>32.43</td>
-                            <td>678.90</td>
-                            <td>34.65</td>
-                            <td>356.67</td>
-                            <td>34.87</td>
-                            <td>45</td>
-                            <td>23</td>
-                            <td>12</td>
-                            <td>34</td>
-                            <td>67</td>
-                        </tr>
-                        <tr>
-                            <td>12</td>
-                            <td>23.34</td>
-                            <td>34.13</td>
-                            <td>45.12</td>
-                            <td>32.43</td>
-                            <td>678.90</td>
-                            <td>34.65</td>
-                            <td>356.67</td>
-                            <td>34.87</td>
-                            <td>45</td>
-                            <td>23</td>
-                            <td>12</td>
-                            <td>34</td>
-                            <td>67</td>
-                        </tr>
+                    <tbody id="tble_body">
+                      
                     </tbody>
             </table>
      </section>
@@ -263,7 +168,7 @@
             </div>
 
             <div class="img-box">
-                <div><b>Dec 12, 2020</b></div>
+                <div><b>Dec 10, 2020</b></div>
                     <div>
                         <img src="img/vc_pink.jpg" alt="Virat Kohli">
                     </div>
@@ -275,7 +180,7 @@
 
 
                 <div class="img-box">
-                    <div><b>Dec 12, 2020</b></div>
+                    <div><b>Nov 15, 2020</b></div>
                         <div>
                             <img src="img/vc_sqd.jpg" width="150ox" height="150%" alt="Virat Kohli">
                         </div>
@@ -286,5 +191,53 @@
                     </div>
         </div>
      </section>
+
+     <section class="section-form"> 
+        <div class="form">
+            <h1>Sign Up</h1>   
+            <form action="#" method="" name="signup_form">
+            <div class="form_element">
+                <div class="label"><label for="name">Name</label></div>
+                <input type="text" name="names" class="input" id="name" placeholder="Your Name" required>
+            </div>
+
+            <div class="form_element">
+               <div class="label"><label for="email">E-mail</label></div> 
+                <input type="email" name="email" class="input" id="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="form_element">
+                <div class="label"><label for="city">City</label></div>
+                <input type="text" name="city" class="input" id="city" placeholder="Your Location" required>
+            </div>
+
+            <div class="form_element">
+               <div class="label"><label for="name">Contact</label></div> 
+                <input type="tel" name="contact" class="input" id="name" placeholder="Your Mobile Number" required>
+            </div>
+
+            <div class="form_element">
+
+                <div class="label"><label for="gender">Gender</label></div> 
+                 <div class="radio"> <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                </div>
+                <div class="radio"> <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                </div>
+             </div>
+
+             <div class="button"><button class="form_button" onclick="Validator()"><a href="#ch">Sign Up</a> </button></div>
+            </form>
+       
+          
+        </div>
+        <div id="ch" class="form">
+            <h1>Submited Details</h1>
+       </div>
+     </section>
+           
+   
+     <script src="js/index.js"></script>
     </body>
 </html>

@@ -69,8 +69,8 @@ header{
 }
 
 button{
-    padding: 9px 20px;
     margin: 0px 40px;
+    padding: 9px 20px; 
     border-radius: 5px;
     background-color: rgba(104, 189, 19, 0.733);
     cursor: pointer;
@@ -278,4 +278,106 @@ padding-bottom: 70px;
 
 .copyright{
     color: grey;
+}
+
+/* ----------- Form-Section--------- */
+.section-form{
+    padding: 30px 20px 30px 20px;
+    background-color:#00987a17;
+}
+
+.form{
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px grey;
+    margin-bottom: 10px;
+}
+.form h1{
+    text-align: center;
+    font-size: 250%;
+    font-weight: 200;
+    border-bottom: 1px solid #54b8a47a;
+    max-width: 40%;
+    margin: 0 auto 40px auto;
+    padding-bottom: 15px;
+    
+}
+.form .button{
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.form button{
+    padding: 9px 20px; 
+    border-radius: 5px;
+    background-color: rgba(51, 134, 113, 0.486);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: 400;
+    font-size: 22px;
+    border-color:rgba(10, 150, 143, 0.308) ;
+    text-decoration: none;
+  color: black;
+
+}
+
+.form button:hover{
+    background-color: rgba(18, 223, 195, 0.979);
+}
+.form_element{
+    display: flex;
+  
+}
+
+.form_element .radio{
+    padding: 22px 15px 0 5px;
+    font-size: 110%;
+}
+.form_element .radio label{
+    padding-right: 10px;
+    
+}
+.form_element .label{
+    margin-right: 120px;
+    font-size: 120%;
+    font-weight: 300;
+    padding-top: 20px;
+    width: 10%;
+}
+.form_element .input{
+    background-color: rgba(128, 128, 128, 0.137);
+    border: 1px solid #ccc;
+    width: 60%;
+    border-radius: 7px;
+    padding: 10px 5px;
+    margin: 15px 0;
+    text-decoration: none;
+}
+
+#ch{
+    display: none;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+#ch:hover{
+    background-color: #00987a7e;
+}
+
+#ch h1{
+    text-align: center;
+    font-size: 130%;
+    font-weight: 200;
+    border-bottom: 1px solid #54b8a47a;
+    max-width: 40%;
+    margin: 0 auto 40px auto;
+    padding-bottom: 15px;
+    
+}
+
+.button a, .button a:active,.button a:visited{
+    text-decoration: none;
+    color: black;
 }
